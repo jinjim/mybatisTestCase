@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bkjk.platform.cms.bank.internal.mapper.BankBranchMapper">
+
+  <resultMap id="branchPo" type="com.jinjim.mybatis.domain.Branch">
+    <id column="id" property="id" jdbcType="INTEGER"/>
+    <result column="branchN_no" property="branchNo" jdbcType="VARCHAR"/>
+    <result column="branch_name" property="branchName" jdbcType="VARCHAR"/>
+    <result column="main_branId" property="mainBranId" jdbcType="INTEGER"/>
+  </resultMap>
+
+</mapper>
